@@ -1,0 +1,9 @@
+strict digraph root {
+    "n0" [ label="n0:root"  ]
+    "n1" [ label="n1:dialogue_root"  ]
+    "n2" [ label="n2:dialogue_state"  ]
+    "n3" [ label="n3:dialogue_state"  ]
+    "n0" -> "n1" [ label="e0" ]
+    "n1" -> "n2" [ label="e1:intent_transition" ]
+    "n1" -> "n3" [ label="e2:intent_transition" ]
+}
