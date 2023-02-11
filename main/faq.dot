@@ -1,0 +1,11 @@
+strict digraph root {
+    "n0" [ label="n0:root"  ]
+    "n1" [ label="n1:faq_root"  ]
+    "n2" [ label="n2:faq_state"  ]
+    "n3" [ label="n3:faq_state"  ]
+    "n4" [ label="n4:faq_state"  ]
+    "n0" -> "n1" [ label="e0" ]
+    "n1" -> "n2" [ label="e1" ]
+    "n1" -> "n3" [ label="e2" ]
+    "n1" -> "n4" [ label="e3" ]
+}
